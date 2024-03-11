@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+ul,h1,li{
+    display: inline;
+}
+ul{
+    display: inline;
+    margin-left: 50%;
+}
+h1{
+    padding: 50px;
+}
+li{
+    color: gray;
+    cursor: pointer;
+}
+input{
+    display :inline;
+    width: 60%;
+    align-items: center;
+    padding: 10px;
+    
+}
+li:hover{     /* when the time click the content changeing the color */
+    color: white;
+}
+ 
+
+.about{
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+.para{
+    margin-top: 10px;
+}
+
+.image{
+    display: inline;
+    border: black 2px;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-top:50px;
+    padding: 40px;
+    
+}
+.image:hover{
+    color: blue;
+}
+.search{
+    padding: 50px;
+    text-align: center;
+}
+.p1{
+    display:inline-block;
+    border-color: black;
+    border-width: 20px;
+    border-style: solid;
+    width: 220px;
+    padding: 20px;
+
+}
+
+.contact:hover{
+    color: white;
+    background-color: gray;
+
+}
+.contact{
+    padding: 30px;
+    background-color: black;
+    color: wheat;
+}
+.para1{
+    padding: 30px;
+
+    
+}
